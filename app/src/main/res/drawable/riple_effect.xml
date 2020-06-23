@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorGray">
+
+    <item android:state_pressed="true"> <!-- android:state_pressed="true" это значит что когда будет нажато -->
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorAccent" />
+            <corners android:radius="@dimen/settings_riple_effect_radius" />
+        </shape>
+    </item>
+
+</ripple>

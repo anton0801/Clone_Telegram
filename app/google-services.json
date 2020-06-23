@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "776950768412",
+    "firebase_url": "https://telegram-d9022.firebaseio.com",
+    "project_id": "telegram-d9022",
+    "storage_bucket": "telegram-d9022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776950768412:android:b8dca8063c5798abf790d9",
+        "android_client_info": {
+          "package_name": "app.beer.telegram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776950768412-kr6j94kvr8rege2jsov4n3bvl20ai3mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG0I-D8PasUCV3PzuCi3E8Z5kQYjlPCO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776950768412-kr6j94kvr8rege2jsov4n3bvl20ai3mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

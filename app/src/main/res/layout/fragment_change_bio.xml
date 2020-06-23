@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.ChangeUserNameFragment">
+
+    <EditText
+        android:id="@+id/settings_input_bio"
+        android:inputType="text"
+        style="@style/edit_text"
+        android:hint="@string/write_about_you_hint"
+        android:maxLength="70"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/horizontal_margin"
+        android:gravity="left"
+        android:text="@string/label_change_bio"
+        android:textColor="@color/colorGray"
+        android:textSize="@dimen/normal_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_input_bio" />
+
+    <TextView
+        android:id="@+id/max_length_bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="70"
+        android:textColor="@color/colorGray"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_input_bio"
+        app:layout_constraintEnd_toEndOf="@+id/settings_input_bio"
+        app:layout_constraintTop_toTopOf="@+id/settings_input_bio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

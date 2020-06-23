@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Telegram</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings_default_username">Антон</string>
+    <string name="settings_default_status_user">в сети</string>
+    <string name="settings_account">Аккаунт</string>
+    <string name="settings_default_number">+79111111111</string>
+    <string name="settings_label_phone_number">Нажмите, чтобы изменить номер телефона</string>
+    <string name="settings_label_login">Нажмите, чтобы изменить имя пользователя</string>
+    <string name="settings_label_bio">Напишите немного о себе</string>
+    <string name="settings_default_login">antondanilov</string>
+    <string name="settings_default_bio">О себе</string>
+    <string name="settings_menu_change_name">изменить имя</string>
+    <string name="settings_menu_exit">выйти</string>
+    <string name="cd_register_image">register image</string>
+    <string name="register_enter_code">Введите код</string>
+    <string name="label_sms">Мы отправили SMS с кодом проверки на ваш телефон</string>
+    <string name="register_hint_default_code">- - - - - -</string>
+    <string name="register_title_your_phone">Ваш телефон</string>
+    <string name="register_enter_phone_number_toast">Введите номер телефона</string>
+    <string name="label_enter_phone_number">Введите ваш настоящий номер телефона так как на него придет код потверждения</string>
+    <string name="enter_phone_number_hint">Введите ваш номер телефона</string>
+    <string name="settings_hint_name">Имя</string>
+    <string name="settings_hint_last_name">Фамилия</string>
+    <string name="settings_toast_name_is_empty">Имя не может быть пустым!</string>
+    <string name="toast_data_updated">Данные обновлены</string>
+    <string name="warning">Что-то пошло не так!</string>
+    <string name="you_username">Ваше имя пользователя</string>
+    <string name="change_user_name_desc">Вы можите выбрать публичное имя пользователя в Telegram. в этом случай другие люди смогут найти вас по такому имени и связаться, не зная вашего телефона\n\nДлина имени должна быть как минимум 5 символов.</string>
+    <string name="username_must_been_no_empty">Имя не должно быть пустым!</string>
+    <string name="username_warning_lenght">Имя пользователя должно содержать не меньше 5 символов, а сейчас у вас %s символов</string>
+    <string name="user_exists">Такой пользователь уже существует</string>
+    <string name="label_change_bio">Вы можете добавить несколько строк о себе. Они будут видны всем, кто откроет ваш профиль.</string>
+    <string name="warning_bio">Введите что-нибуть о себе чтобы сохранить</string>
+    <string name="write_about_you_hint">Напишите немного о себе</string>
+</resources>
